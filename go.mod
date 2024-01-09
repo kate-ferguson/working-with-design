@@ -1,0 +1,3 @@
+module site.local
+
+go 1.21.6
