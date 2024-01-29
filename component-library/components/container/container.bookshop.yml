@@ -2,18 +2,17 @@
 spec:
   structures:
     - content_blocks
-  label: "Sample"
+  label: "Container"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text:
+  buttons: [bookshop:button]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  text: hellohello
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
