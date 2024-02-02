@@ -1,0 +1,36 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Centered-block--low"
+  description: centered content block with optional button and image
+  icon: 
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  heading: ""
+  text_block: ""
+  button: bookshop:button
+  desktop_image: 
+    image_path: ""
+    image_alt: ""
+  mobile_image: 
+    image_path: ""
+    image_alt: ""
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  heading: What is Forest Positive
+  text_block: >-
+    What is Forest Positive printing? An evolution of the print space, putting but back more trees than get pulped into printer paper. Doing what’s right for the environment.
+  button: bookshop:button
+  desktop_image: 
+    image_path: /uploads/forest-image.svg
+    image_alt: ""
+  mobile_image:
+    image_path: /uploads/mobile-forest-image.svg
+    image_alt: ""
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

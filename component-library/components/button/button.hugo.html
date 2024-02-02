@@ -1,4 +1,4 @@
-<div class="c-button">
-    <p>{{ .text }}</p>
-    But this is hardcoded
-</div>
+{{ $c := "c-button" }}
+
+    <a href="{{ .href }}" class="{{ $c }} {{ $c }}--{{ .size }}">{{ .label }}</a>
+

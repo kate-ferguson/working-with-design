@@ -1,0 +1,36 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Left-block--background-image"
+  description: left block background image with button and optional logo or heading
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  landing_page_hero:
+  heading:
+  logo:
+    logo_path:
+    logo_alt:
+  subtitle:
+  button: bookshop:button
+  image:
+    image_path:
+    image_alt:
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  heading: Forest Positive
+  landing_page_hero: false
+  logo:
+    logo_path: /uploads/papercut-grows-logo.svg
+    logo_alt: papercut grows logo
+  subtitle: Leading the sustainibilty movement.
+  button: bookshop:button
+  image:
+    image_path: /uploads/Left-right-block--Background-image.png
+    image_alt: ariel photo of a forest
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

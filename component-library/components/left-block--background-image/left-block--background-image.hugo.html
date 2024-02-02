@@ -1,0 +1,18 @@
+{{ $c := "c-left-block--background-image" }}
+
+<div class="{{ $c }}" style="background: url({{ .image.image_path }});">
+    <div class="{{ $c }}__content">
+        {{ if or .landing_page_hero ( not .logo.logo_path ) }}<h1>{{ .heading }}</h1>{{ end }}
+        {{ if .logo.logo_path }} 
+        <div class="{{ $c }}__logo">
+            <img src="{{ .logo.logo_path }}" alt="papercut grows logo"/>
+        </div>
+        {{ end }}
+        <h2> {{ .subtitle }}</h2>
+        {{ if .button }}
+           <div class="{{ $c }}__button">
+            {{ partial "bookshop" (slice "button" .button )}}
+           </div> 
+        {{ end }}
+    </div>
+   </div>

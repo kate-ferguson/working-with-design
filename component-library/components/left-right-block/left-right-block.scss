@@ -1,0 +1,31 @@
+.c-left-right-block {
+
+background-color: #f8f9fa;
+
+    &:h1 {
+        font-size: 32px;
+        font-family: Barlow;
+        font-weight: 600;
+        line-height: 40px;
+        color: #3b3b3d;
+    }
+
+    &:p {
+        color: #3b3b3d;
+        font-size: 16px;
+        font-family: Source Sans Pro;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &:ul {
+       list-style: none;
+    }
+
+    &ul li:before {
+        content: '';
+    }
+}
+
+// unsure about images
+// how to enter a tick?? 

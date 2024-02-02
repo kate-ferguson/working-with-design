@@ -5,10 +5,16 @@
     "bookshop_scss" . }} {{ $scss := $bookshop_scss_files | resources.Concat
     "css/bookshop.css" | resources.ToCSS | resources.Minify |
     resources.Fingerprint }}
+    <link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Barlow:400,600,700%7CSource+Sans+Pro:400,600,700%7CSource+Code+Pro" />
     <link rel="stylesheet" href="{{ $scss.Permalink }}" />
+
   </head>
 
   <body>
-    {{ block "main" . }} {{ end }}
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
   </body>
 </html>

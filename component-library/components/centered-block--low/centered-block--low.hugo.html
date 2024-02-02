@@ -1,0 +1,16 @@
+{{ $c := "c-centered-block--low" }}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__content">
+        <h2>{{ .heading }}</h2>
+        <p> {{ .text_block }}</p>
+        {{ if .button }}
+            {{ partial "bookshop" (slice "button" .button )}}
+        {{ end }}
+    </div>
+<div class="{{ $c }}__image">
+    <img class="{{ $c }}__image--desktop" src="{{ .desktop_image.image_path }}" alt="">
+    <img class="{{ $c }}__image--mobile" src="{{ .mobile_image.image_path }}" alt="">
+</div>
+    
+</div>

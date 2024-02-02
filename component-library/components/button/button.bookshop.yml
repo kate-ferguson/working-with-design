@@ -9,10 +9,15 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  href:
+  label:
+  size:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  href: "#"
+  label: Primary
+  size: large
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
