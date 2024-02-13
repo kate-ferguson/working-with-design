@@ -40,7 +40,7 @@ content_blocks:
     quote: >-
       “What we are doing to the forests of the world is but a mirror reflection
       of what we are doing to ourselves and to one another.”
-    author: Chris Maser
+    author: '- Chris Maser'
   - _bookshop_name: left-right-block
     desktop_image:
       image_path: /uploads/image-container.svg
