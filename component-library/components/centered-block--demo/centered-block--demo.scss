@@ -2,6 +2,8 @@
 
 display: grid;
 grid-template-columns: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
+padding-top: 96px;
+padding-bottom: 96px;
 
     &__content {
         padding: 96px 0px;
