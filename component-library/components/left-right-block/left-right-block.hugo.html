@@ -1,3 +1,15 @@
-<div class="c-left-right-block">
-    <p>{{ .text }}</p>
+{{ $c := "c-left-right-block" }}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__content">
+
+<div class="{{ $c }}__image">
+    <img class="{{ $c }}__image--desktop" src="{{ .desktop_image.image_path }}" alt="">
+    <img class="{{ $c }}__image--mobile" src="{{ .mobile_image.image_path }}" alt="">
+</div>
+<h2> {{ .heading }}</h2>
+<p> {{ .textblock }}</p>
+<div class="{{ $c }}__button">
+    {{ partial "bookshop" (slice "button" .button )}}
+   </div> 
 </div>

@@ -10,12 +10,12 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   desktop_image: 
-    image_path: 
-    image_alt: 
+    image_path: ""
+    image_alt: ""
   mobile_image:
-    image_path: 
-    image_alt: 
-  heading: 
+    image_path: "" 
+    image_alt: ""
+  heading: ""
   text_block: 
   button: bookshop:button
   
@@ -25,10 +25,10 @@ blueprint:
 preview:
   desktop_image: 
     image_path: /uploads/image-container.svg
-    image_alt: cartoon style image of woman sitting on green park bench with a black and grey dog
-  mobile_image: ""
+    image_alt: ""
+  mobile_image:
     image_path: /uploads/image-container.svg
-    image_alt: cartoon style image of woman sitting on green park bench with a black and grey dog
+    image_alt: ""
   heading: Find out more about what's driving the Forest Positive movement
   text_block:  >-
       Some copy here about trees, climate change, deforestation, benefits of planting and/or similar. It shouldn’t be too long, as we expect this section to not be more than this amount of lines. But there’s room for a bit more. Maybe another line.

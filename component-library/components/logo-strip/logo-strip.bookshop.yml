@@ -2,17 +2,23 @@
 spec:
   structures:
     - content_blocks
-  label: "Logos"
+  label: "Logo-strip"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  heading:
+  logo-strip:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  heading: TRUSTED BY SCHOOLS AROUND THE WORLD
+  logo-strip:
+    image_path:
+    image_alt:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  

@@ -9,10 +9,24 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  left-block:
+    title:
+    heading:
+  right_block:
+    quote:
+    author:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  title: WHAT IS FOREST POSITIVE PRINTING
+  left_block:
+    heading: We plant trees to couteract your printing's impact
+    text_block: Forest Positive printing is extending the Forest Positive evolution into the print space. It allows organisations to actively contribute to more trees being planted than those pulped into printing paper. Forest Positive printing moves beyond reducing waste and transforms essential business printing from a negative environmental footprint to a positive force for reforestation and ecological renewal.
+  right_block:
+    quote: “What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another.” 
+    author: - Chris Maser
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+
+
