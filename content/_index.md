@@ -27,20 +27,6 @@ content_blocks:
       - url: /uploads/navy-wheatley.png
         alt: Aqua blue tree with navy blue background
         caption: Wheatley Park School
-  - _bookshop_name: left-right-block--quote
-    title: WHAT IS FOREST POSITIVE PRINTING
-    heading: We plant trees to counteract your printing's impact
-    text_block: >-
-      Forest Positive printing is extending the Forest Positive evolution into
-      the print space. It allows organisations to actively contribute to more
-      trees being planted than those pulped into printing paper. Forest Positive
-      printing moves beyond reducing waste and transforms essential business
-      printing from a negative environmental footprint to a positive force for
-      reforestation and ecological renewal.
-    quote: >-
-      “What we are doing to the forests of the world is but a mirror reflection
-      of what we are doing to ourselves and to one another.”
-    author: Chris Maser
   - _bookshop_name: centered-block--low
     heading: What is Forest Positive
     text_block: >-
@@ -99,4 +85,18 @@ content_blocks:
     image:
       image_path: /uploads/Left-right-block--Background-image.png
       image_alt: ariel photo of a forest
+  - _bookshop_name: left-right-block--quote
+    title: WHAT IS FOREST POSITIVE PRINTING
+    heading: We plant trees to counteract your printing's impact
+    text_block: >-
+      Forest Positive printing is extending the Forest Positive evolution into
+      the print space. It allows organisations to actively contribute to more
+      trees being planted than those pulped into printing paper. Forest Positive
+      printing moves beyond reducing waste and transforms essential business
+      printing from a negative environmental footprint to a positive force for
+      reforestation and ecological renewal.
+    quote: >-
+      “What we are doing to the forests of the world is but a mirror reflection
+      of what we are doing to ourselves and to one another.”
+    author: Chris Maser
 ---
