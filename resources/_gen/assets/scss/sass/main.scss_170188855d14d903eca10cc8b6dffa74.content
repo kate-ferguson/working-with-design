@@ -1,1 +1,1 @@
-body{--twelve-column-grid:1fr repeat(12, calc(min(96px, 7.78%))) 1fr}*{box-sizing:border-box}img{display:block;max-width:100%}
+body{--twelve-column-grid:1fr repeat(12, calc(min(96px, 7.78%))) 1fr}*{box-sizing:border-box}img{width:100%}p,h1,h2,ul{margin:0}

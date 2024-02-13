@@ -1,3 +1,15 @@
-<div class="c-centered-block--demo">
-    <p>{{ .text }}</p>
+{{ $c := "c-centered-block--demo" }}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__content">
+        <p>{{ .title }}</p>
+        <h1>{{ .heading }}</h1>
+        <div class="{{ $c }}__content__text-block">
+            <p class="p">{{ .text_block }}</p>
+        </div>
+    </div>
+
+    <div style="background-image:url({{ .image }})" class="image">
+        <iframe src="https://lottie.host/embed/8e0e0128-fd9a-473a-b8bd-b5a3e9d6809c/JmSrbYoXAJ.json" title="Lenny's Halloween Costume Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="" width="81%"></iframe>
+    </div>
 </div>

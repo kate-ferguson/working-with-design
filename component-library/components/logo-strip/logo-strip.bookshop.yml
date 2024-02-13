@@ -9,15 +9,46 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  heading:
-  logo-strip:
+  heading: 
+  images:
+    - url:
+      alt:
+      caption:
+    - url:
+      alt:
+      caption:
+    - url:
+      alt:
+      caption:
+    - url:
+      alt:
+      caption:
+    - url:
+      alt:
+      caption:
+  
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   heading: TRUSTED BY SCHOOLS AROUND THE WORLD
-  logo-strip:
-    image_path:
-    image_alt:
+  images:
+    - url: "/uploads/image-2.png"
+      alt: "White tree with blue background"
+      caption: "Wheatley Park School"
+    - url: "/uploads/image-3.png"
+      alt: "White M with red strip through middle"
+      caption: "St Martins School"
+    - url: "/uploads/image-4.svg"
+      alt: "multi coloured crest"
+      caption: "Minehead Middle School"
+    - url: "/uploads/image-3-copy.png"
+      alt: "White M with red strip through middle"
+      caption: "St Martins School"
+    - url: "/uploads/navy-wheatley.png"
+      alt: "Aqua blue tree with navy blue background"
+      caption: "Wheatley Park School"
+  
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:

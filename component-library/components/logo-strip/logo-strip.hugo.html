@@ -1,3 +1,11 @@
-<div class="c-logo-strip">
-    <p>{{ .text }}</p>
-</div>
+{{ $c := "c-logo-strip" }}
+
+<div class="{{ $c }}">
+  <h1>{{ .heading }}</h1>
+    {{ range .images }}
+    <div class="{{ $c }}__image-item">
+      <div class="{{ $c }}__image-item__wrapper"><img src="{{ .url }}" alt="{{ .alt }}" /></div>
+      <p>{{ .caption }}</p>
+    </div>
+    {{ end }}
+  </div>

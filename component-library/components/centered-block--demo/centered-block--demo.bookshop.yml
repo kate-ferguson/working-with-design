@@ -9,10 +9,11 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title:
-  heading:
-  text_block:
-  video:
+  title: ""
+  heading: ""
+  text_block: ""
+  image:
+  url:
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -20,7 +21,8 @@ preview:
   title: COST EFFECTIVE PRINT MANAGEMENT FOR YOUR SCHOOL
   heading: Making printing easy and affordable for schools all over the globe
   text_block: Deliver simpler-than-ever printing that just works – no matter your size, printers, operating systems, or BYOD devices.
-  video:
+  image: /uploads/Demo Background.svg
+  url: 
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
