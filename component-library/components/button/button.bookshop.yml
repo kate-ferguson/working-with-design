@@ -23,3 +23,9 @@ preview:
 _inputs:
   href:
     type: url
+  size:
+    type: choice
+    options:
+      values:
+        - small
+        - large
