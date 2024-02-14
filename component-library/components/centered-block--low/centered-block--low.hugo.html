@@ -3,7 +3,7 @@
 <div class="{{ $c }}">
     <div class="{{ $c }}__content">
         <h2>{{ .heading }}</h2>
-        <p> {{ .text_block }}</p>
+        <p> {{ .text_block | markdownify }}</p>
         {{ if .button }}
             {{ partial "bookshop" (slice "button" .button )}}
         {{ end }}
