@@ -17,9 +17,7 @@ blueprint:
     image_alt: ""
   heading: ""
   list:
-    first_item: 
-    second_item: 
-    third_item:
+    - text: first item
   text_block: ""
   button: bookshop:button
   
@@ -37,9 +35,9 @@ preview:
   text_block:  >-
       Some copy here about trees, climate change, deforestation, benefits of planting and/or similar. It shouldn’t be too long, as we expect this section to not be more than this amount of lines. But there’s room for a bit more. Maybe another line.
   list: 
-    first_item: First link here. A title with a hyperlink behind.
-    second_item: Link here. A title with a hyperlink behind.
-    third_item: Link here. A title with a hyperlink behind.
+    - text: First link here. A title with a hyperlink behind.
+    - text: Link here. A title with a hyperlink behind.
+    - text: Link here. A title with a hyperlink behind.
   button: bookshop:button
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

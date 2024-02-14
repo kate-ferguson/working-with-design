@@ -59,9 +59,9 @@ content_blocks:
       section to not be more than this amount of lines. But there’s room for a
       bit more. Maybe another line.
     list:
-      first_item: First link here. A title with a hyperlink behind.
-      second_item: Link here. A title with a hyperlink behind.
-      third_item: Link here. A title with a hyperlink behind.
+      - text: First link here. A title with a hyperlink behind.
+      - text: Link here. A title with a hyperlink behind.
+      - text: Link here. A title with a hyperlink behind.
     button:
       _bookshop_name: button
       href: '#'
