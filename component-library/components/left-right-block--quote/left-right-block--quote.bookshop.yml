@@ -27,6 +27,12 @@ preview:
     author: "- Chris Maser"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs:
+_inputs: 
+  heading:
+    type: textarea
+  text_block:
+    type: textarea
+  quote:
+    type: textarea
 
 
