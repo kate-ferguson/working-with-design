@@ -47,4 +47,5 @@ _inputs:
   text_block:
     type: markdown
   list:
-    type: markdown
+    first_item:
+      type: markdown
