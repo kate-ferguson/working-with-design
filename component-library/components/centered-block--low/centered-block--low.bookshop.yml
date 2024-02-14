@@ -35,4 +35,4 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   text_block:
-    type: textarea
+    type: markdown
