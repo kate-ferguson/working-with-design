@@ -6,10 +6,10 @@
         <div class="{{ $c }}__content__first-block">
             <p class="title">{{ .title }}</p>
             <h2>{{ .heading }}</h2> 
-            <p>{{ .text_block }}</p>
+            <p>{{ .text_block | markdownify }}</p>
         </div>
         <div class="{{ $c }}__content__second-block">
-            <h2>{{ .quote }}</h2>
+            <h2>{{ .quote | markdownify }}</h2>
             <p>{{ .author }}</p>
         </div>
     </div>
