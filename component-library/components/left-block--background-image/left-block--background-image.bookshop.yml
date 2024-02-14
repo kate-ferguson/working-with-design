@@ -34,3 +34,5 @@ preview:
     image_alt: ariel photo of a forest
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  subtitle:
+    type: textarea
