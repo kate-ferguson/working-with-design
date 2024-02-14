@@ -48,3 +48,7 @@ _inputs:
     type: markdown
   first_item:
     type: markdown
+  second_item:
+    type: markdown
+  third_item:
+    type: markdown
