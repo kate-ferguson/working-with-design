@@ -12,20 +12,20 @@ content_blocks:
   - _bookshop_name: logo-strip
     heading: TRUSTED BY SCHOOLS AROUND THE WORLD
     images:
-      - url: /uploads/image-2.png
-        alt: White tree with blue background
+      - image_path: /uploads/image-2.png
+        image_alt: White tree with blue background
         caption: Wheatley Park School
-      - url: /uploads/image-3.png
-        alt: White M with red strip through middle
+      - image_path: /uploads/image-3.png
+        image_alt: White M with red strip through middle
         caption: St Martins School
-      - url: /uploads/image-4.svg
-        alt: multi coloured crest
+      - image_path: /uploads/image-4.svg
+        image_alt: multi coloured crest
         caption: Minehead Middle School
-      - url: /uploads/image-3-copy.png
-        alt: White M with red strip through middle
+      - image_path: /uploads/image-3-copy.png
+        image_alt: White M with red strip through middle
         caption: St Martins School
-      - url: /uploads/navy-wheatley.png
-        alt: Aqua blue tree with navy blue background
+      - image_path: /uploads/navy-wheatley.png
+        image_alt: Aqua blue tree with navy blue background
         caption: Wheatley Park School
   - _bookshop_name: left-right-block--quote
     title: WHAT IS FOREST POSITIVE PRINTING
