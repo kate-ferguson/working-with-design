@@ -46,3 +46,5 @@ preview:
 _inputs:
   text_block:
     type: markdown
+  list:
+    type: markdown

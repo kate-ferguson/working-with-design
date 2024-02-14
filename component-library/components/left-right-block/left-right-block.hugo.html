@@ -8,9 +8,9 @@
             <h2>{{ .heading }}</h2>
             <p>{{ .text_block | markdownify }}</p>
             <ul class="custom-list">
-                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.first_item}}</li>
-                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.second_item}}</li>
-                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.third_item}}</li>
+                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.first_item | markdownify}}</li>
+                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.second_item | markdownify}}</li>
+                <li><span class="tick-marker"><img src="/uploads/green-tick.svg" alt="Green tick"></span>{{ .list.third_item | markdownify}}</li>
             </ul>
 
             <div class="{{ $c }}__button">
