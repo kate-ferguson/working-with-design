@@ -5,7 +5,7 @@
         <p>{{ .title }}</p>
         <h1>{{ .heading }}</h1>
         <div class="{{ $c }}__content__text-block">
-            <p class="p">{{ .text_block }}</p>
+            <p class="p">{{ .text_block | markdownify }}</p>
         </div>
     </div>
 
