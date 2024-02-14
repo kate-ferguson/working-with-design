@@ -1,5 +1,5 @@
 ---
-title: "Components"
-type: "components"
+title: Components
+type: components
 draft: true
 ---
