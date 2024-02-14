@@ -4,7 +4,7 @@
   <h1>{{ .heading }}</h1>
     {{ range .images }}
     <div class="{{ $c }}__image-item">
-      <div class="{{ $c }}__image-item__wrapper"><img src="{{ .url }}" alt="{{ .alt }}" /></div>
+      <div class="{{ $c }}__image-item__wrapper"><img src="{{ .image.image_path }}" alt="{{ .image.image_alt }}" /></div>
       <p>{{ .caption }}</p>
     </div>
     {{ end }}
