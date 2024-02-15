@@ -24,7 +24,7 @@
             justify-content: flex-start;
         }
 
-        @media screen and (min-width: 770px) and (max-width: 1366px) {
+        @media screen and (min-width: 770px) and (max-width: 1366px) and (max-width: 1366px) {
             align-items: flex-start;
             padding: 0 24px;
             justify-content: flex-start;
@@ -50,6 +50,13 @@
             max-width: 443px;
             max-height: 80px;
             text-align: left;
+        }
+
+        @media screen and (min-width: 1366px) {
+            max-width: 443px;
+            max-height: 80px;
+            text-align: left;
+            padding-left: 125px;
         }
     }
 
