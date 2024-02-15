@@ -1,5 +1,7 @@
 body {
    --twelve-column-grid: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
+   max-width: 1366px;
+   margin: 0 auto;
 }
 
 * {
