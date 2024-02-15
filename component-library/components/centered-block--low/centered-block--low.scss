@@ -34,6 +34,20 @@
             line-height: 24px;
             word-wrap: break-word;
             margin: 0;
+            max-width: 446px;
+            max-height: 72px;
+            justify-self: center;
+            align-self: center;
+
+            @media screen and (min-width: 768px) {
+                max-width: 590px;
+                max-height: 48px;
+            }
+
+            @media screen and (min-width: 1366px) {
+                max-width: 563px;
+                max-height: 72px;
+            }
         }
 
 
@@ -56,16 +70,19 @@
     &__image {
         grid-column: 2 / -2;
         display: block;
-
-
-        @media screen and (min-width: 768px){
-            
-
+        max-width: 380px;
+        margin: auto; // Centers the image horizontally in its grid column.
+        justify-self: center; // Centers the image within its grid area horizontally.
+        align-self: center; // Centers the image within its grid area vertically.
+    
+        @media screen and (min-width: 704px) {
+            max-width: 571px;
+            max-height: 178px;
         }
-
-        @media screen and (min-width: 1366px){
-
-
+    
+        @media screen and (min-width: 1366px) {
+            max-width: 751px;
+            max-height: 138px;
         }
 
 

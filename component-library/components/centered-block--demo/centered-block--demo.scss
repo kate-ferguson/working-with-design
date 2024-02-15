@@ -4,6 +4,7 @@ display: grid;
 grid-template-columns: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
 padding-top: 96px;
 padding-bottom: 96px;
+background-color: white;
 
     &__content {
         padding: 96px 0px;
@@ -30,6 +31,7 @@ padding-bottom: 96px;
                 line-height: 24px;
                 word-wrap: break-word;
                 text-transform: none;
+                letter-spacing: normal;
 
                 @media screen and (max-width: 768px) {
                     max-width: 597px;
