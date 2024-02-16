@@ -1,6 +1,6 @@
 {{ $c := "c-centered-block--low" }}
 
-<div class="{{ $c }}">
+<div class="{{ $c }} container">
     <div class="{{ $c }}__content">
         <h2>{{ .heading }}</h2>
         <p> {{ .text_block | markdownify }}</p>

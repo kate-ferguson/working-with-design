@@ -1,6 +1,6 @@
 {{ $c := "c-left-block--background-image" }}
 
-<div class="{{ $c }}" style="background: url({{ .image.image_path }});">
+<div class="{{ $c }} container" style="background: url({{ .image.image_path }});">
     <div class="{{ $c }}__content">
         {{ if or .landing_page_hero ( not .logo.logo_path ) }}<h1>{{ .heading }}</h1>{{ end }}
         {{ if .logo.logo_path }} 

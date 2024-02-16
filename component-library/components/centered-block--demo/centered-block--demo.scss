@@ -2,9 +2,10 @@
 
 display: grid;
 grid-template-columns: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
-padding-top: 96px;
+padding-top: 0;
 padding-bottom: 96px;
 background-color: white;
+text-align: center;
 
     &__content {
         padding: 96px 0px;
@@ -79,6 +80,14 @@ background-color: white;
         line-height: 40px;
         word-wrap: break-word;
         text-align: center;
+        max-width: 447px;
+        margin: 0 auto;
+
+        @media screen and (min-width: 480px) {
+            max-width: 597px;
+            max-height: 80px;
+            text-align: center;
+        }
     }
 
 }
